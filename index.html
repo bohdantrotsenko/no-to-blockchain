@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>No to blockchain - Bohdan Trotsenko</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<section>
+						<h2>Bitcoin power</h2>
+					</section>
+				  <section>
+						<img src="img/bitcoin_hash.png">
+						<div align="right"><a href="https://www.blockchain.com/en/explorer">link</a></div>
+					</section>
+					<section>
+						<table>
+							<thead>
+								<tr>
+									<th>Name</th>
+									<!-- <th><a href="https://www.buybitcoinworldwide.com/mining/hardware/">Name</a></th> -->
+									<th>Ops, TH/s</th>
+									<th>Power, KW</th>
+									<th>Price, $</th>
+									<th>Count</th>
+									<th>Power, GW</th>
+									<th>Price, $M</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>S7</td>
+									<td>4.73</td>
+									<td>1.300</td>
+									<td>500</td>
+									<td>7'948'165</td>
+									<td>10.3</td>
+									<td>3'974.08</td>
+								</tr>
+								<tr>
+									<td>S9</td>
+									<td>14</td>
+									<td>1.500</td>
+									<td>3000</td>
+									<td>2'685'345</td>
+									<td>4.03</td>
+									<td>8'056.03</td>
+								</tr>
+								<tr>
+									<td>16T</td>
+									<td>16</td>
+									<td>1.500</td>
+									<td>2730</td>
+									<td>2'349'677</td>
+									<td>3.53</td>
+									<td>6'414.62</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+				</section>
+				<section>
+				  <h1>Why you don't need any blockchain</h1>
+				  <p>by <a href="https://trotsenko.com.ua">Bohdan Trotsenko</a></p>
+				</section>
+				<section>
+				  <h2>Reason for this presentation</h2>
+				  <h3><a href="https://www.facebook.com/bohdan.trotsenko/posts/10155903827769060">Ukraine's land registry to use blockchain</a></h3>
+				  <img src="img/agro.png">
+				</section>
+				<section>
+				  <section>
+				    <h2>Ethereum power</h2>
+				    <aside class="notes">
+				      Ethereum notes
+				    </aside>
+				  </section>
+				  <section>
+				    <img src="img/ether_hash.png">
+				    <div align="right"><a href="https://etherscan.io/">link</a></div>
+				  </section>
+				  <section>
+				    <img src="img/best_gpu.png">
+				    <div align="right"><a href="https://cryptosrus.com/best-gpu-for-mining/">link</a></div>
+				  </section>
+				  <section>
+				    <ul>
+							<li>278'435'810 / 41 = 916800 (cards)</li>
+				      <li>916'800 * $600 (price of a card) = $550'080'000</li>
+				      <li>916'800 * $0.08/h = $73.344/h = $1'760'256/day = $642'493'440/year</li>
+				      <li>4 * 60m * $476 * 3.5 = $399'840/h ("value" generated)</li>
+				    </ul>
+				    <!--<pre><code class="hljs">
+				    </code></pre>-->
+				  </section>
+				</section>
+				<section>останній слайд</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
